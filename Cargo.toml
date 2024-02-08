@@ -15,7 +15,7 @@ categories = ["encoding"]
 ryu = "1.0"
 indexmap = { version = "1.5.2", features = ["std"] }
 serde = "1.0.69"
-yaml_rust = { package = "yaml-rust-olidacombe", version = "0.6.0" }
+yaml_rust = { package = "yaml-rust-olidacombe", version = "0.6.0" } # built from https://github.com/olidacombe/yaml-rust/tree/default_to_multiline
 
 [dev-dependencies]
 anyhow = "1.0"
